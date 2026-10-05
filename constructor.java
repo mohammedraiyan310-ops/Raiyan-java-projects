@@ -1,9 +1,9 @@
 public class constructor {
     public static void main(String[]args){
         Student st1 = new Student();
-        st1.name = "Nandini";
+        st1.name = "Pawan";
         st1.dept = "AIML";
-        Student st2 = new Student("Rashmi", "AIML");
+        Student st2 = new Student("Raiyan", "AIML");
         System.out.println(st2.dept);
     }
     
